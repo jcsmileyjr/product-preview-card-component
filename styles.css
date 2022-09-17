@@ -1,0 +1,21 @@
+:root {
+    --Primary-Dark-cyan: hsl(158, 36%, 37%);
+    --Primary-Cream: hsl(30, 38%, 92%);
+    --Neutral-Very-dark-blue: hsl(212, 21%, 14%);
+    --Neutral-Dark-grayish-blue: hsl(228, 12%, 48%);
+    --Neutral-White: hsl(0, 0%, 100%);
+    --Primary-font-size: 14px;
+  }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.boldText {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.regularText {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+}
