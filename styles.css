@@ -39,6 +39,10 @@ body {
     flex-direction: column;
 }
 
+.content__type--style {
+    letter-spacing: .5em;
+}
+
 .container {
     display: flex;
     flex-direction: column;
