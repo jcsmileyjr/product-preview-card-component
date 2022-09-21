@@ -26,21 +26,28 @@ body {
     min-height: -webkit-fill-available;
 }
 
+.image__container--style {
+    flex: 1;
+}
+
 .content__container--style {
+    flex: 2;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
     font-family: "Fraunces", sans-serif;
     font-size: var(--Primary-font-size);
     background-color: var(--Neutral-White);
     margin: 20px 10px;
 }
 
-section {
+.attribution{
     flex: 1;
 }
 
