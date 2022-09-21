@@ -13,8 +13,7 @@ body {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-.boldText {
-    
+.boldText {    
     font-family: "Fraunces", sans-serif;
     font-weight: 700;
 }
@@ -46,6 +45,21 @@ body {
     font-size: var(--Primary-font-size);
     background-color: var(--Neutral-White);
     margin: 20px 10px;
+}
+
+
+.price__container--style {
+    display: flex;
+    align-items: center;
+}
+
+.price__newPrice--style {
+    font-size: xx-large;
+}
+
+.price__oldPrice--style {
+    margin-left: 30px;
+    text-decoration: line-through;
 }
 
 .attribution{
