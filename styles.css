@@ -87,10 +87,30 @@ body {
     flex: 1;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 500px) {
     .container {
         flex-direction: row;
+        width: 500px;
     }
+
+    .content__container--style, .image__container--style {
+        flex: 1;
+    }
+
+    .cta__image--style {
+        width:100%;
+    }
+
+    body {
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+    }
+
+    .attribution {
+        flex: 0;
+    }
+
 }
 
 @media only screen and (max-width: 380px) {
